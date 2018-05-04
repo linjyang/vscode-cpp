@@ -55,7 +55,7 @@ MacOS下比较麻烦，用`brew install gdb`之后还要创建证书并给gdb签
     ]
 }
 ```
-## 生产tasks.json
+## 生成tasks.json
 菜单栏选则task -> configure task -> 出现的输入框中输入task -> create task json from template -> Others
 
 生成后修改tasks.json如下：
@@ -90,3 +90,6 @@ Ubuntu 编译快捷键 ctrl + shift + b
 
 运行调试如图：
 ![](https://github.com/linjyang/vscode-cpp/blob/master/pic/compile.png)
+
+## MakeFile
+利用make命令解决项目依赖和编译。可参考[链接教程](https://blog.csdn.net/liang13664759/article/details/1771246)
